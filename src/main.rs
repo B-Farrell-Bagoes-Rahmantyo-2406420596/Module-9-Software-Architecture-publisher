@@ -69,6 +69,26 @@ async fn publish_messages(amqp_uri: &str) -> Result<(), Box<dyn std::error::Erro
             user_id: "5".to_owned(),
             user_name: "2406420596-Emir".to_owned(),
         },
+        UserCreatedEventMessage {
+            user_id: "6".to_owned(),
+            user_name: "2406420596-Farrell".to_owned(),
+        },
+        UserCreatedEventMessage {
+            user_id: "7".to_owned(),
+            user_name: "2406420596-Geral".to_owned(),
+        },
+        UserCreatedEventMessage {
+            user_id: "8".to_owned(),
+            user_name: "2406420596-Hana".to_owned(),
+        },
+        UserCreatedEventMessage {
+            user_id: "9".to_owned(),
+            user_name: "2406420596-Ica".to_owned(),
+        },
+        UserCreatedEventMessage {
+            user_id: "10".to_owned(),
+            user_name: "2406420596-Jokan".to_owned(),
+        },
     ];
 
     // Publish each message
